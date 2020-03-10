@@ -9639,6 +9639,16 @@ body {
   background-color: #333;
 }
 
+.main {
+  padding: 0 1rem 4rem;
+}
+
+@media screen and (min-width: 481px) {
+  .main {
+    padding: 0 0 5rem;
+  }
+}
+
 .main__ttl {
   font-size: 1.5rem;
   margin: 5px 0 0;
