@@ -9704,3 +9704,11 @@ body {
 .sec__dd {
   margin-bottom: 2rem;
 }
+
+.card {
+  padding-top: 15px;
+}
+
+.card img {
+  width: 100%;
+}
