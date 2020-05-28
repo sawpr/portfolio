@@ -22,7 +22,7 @@
         </dl>
         <nav>
           <ul class="output">
-            <li class="output__list"><nuxt-link to=""><i class="fab fa-github"></i></nuxt-link></li>
+            <li class="output__list"><nuxt-link to="https://github.com/sawpr/portfolio"><i class="fab fa-github"></i></nuxt-link></li>
           </ul>
         </nav>
         <dl class="section__dl">
@@ -67,9 +67,11 @@
                     <p class="works__text intro">{{ item.introduction }}</p>
                     <p class="works__text muted">{{ item.technical }}</p>
                     <p class="works__text muted">作業時間：{{ item.span }}</p>
-                    <p class="works__text link">
-                      <a :href="item.link" target="_blank" class="btn--green">Link</a>
-                    </p>
+                    <template v-if="item.link">
+                      <p class="works__text link">
+                        <a :href="item.link" target="_blank" class="btn--green">Link {{ item.link }}</a>
+                      </p>
+                    </template>
                   </dd>
                 </dl>
               </div>
