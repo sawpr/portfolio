@@ -1,7 +1,7 @@
 {
   "name": "portfolio-site",
   "version": "1.0.0",
-  "description": "My dandy Nuxt.js project",
+  "description": "sawpt portfolio",
   "author": "sawpt",
   "private": true,
   "scripts": {
