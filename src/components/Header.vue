@@ -77,7 +77,7 @@ export default {
     // background: greenyellow;
     position: relative;
   }
-  .inner:nth {
+  .inner {
     @include mq(pc) {
       align-items: center;
       display: flex;
