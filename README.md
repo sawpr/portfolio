@@ -1,24 +1,22 @@
-# Portfolio
-<!-- <a href="https://aso-takahiro.github.io/portfolio/">Github Pages</a> -->
+# portfolio-site
 
-## バージョン
-v2.1.0くらい
+> My dandy Nuxt.js project
 
-## 要件  
-### staticデータ
-* ローカル環境で開発する事を重点とした環境
-* gulp  
-　┣━　Pug  
-　┣━　Scss  
-　┣━　imagemin  
-　┣━　browser-sync（ブラウザオートリロード）  
-　┗━　Webpack  
+## Build Setup
 
-## gulp start
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
 ```
-$ gulp
-```
 
-## 運用予定
-* EC系のWorksにパスワードをつける
-* フロント技術系の制作物を載せる
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
