@@ -22,7 +22,7 @@
         </dl>
         <nav>
           <ul class="output">
-            <li class="output__list"><nuxt-link to="https://github.com/sawpr/portfolio"><i class="fab fa-github"></i></nuxt-link></li>
+            <li class="output__list"><a href="https://github.com/sawpr/portfolio" target="_blank"><i class="fab fa-github"></i></a></li>
           </ul>
         </nav>
         <dl class="section__dl">
